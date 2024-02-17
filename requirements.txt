@@ -1,2 +1,3 @@
 pandas @ file:///croot/pandas_1692289311655/work
 plotly @ file:///work/ci_py311/plotly_1676841625489/work
+streamlit==1.31.1

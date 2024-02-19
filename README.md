@@ -15,6 +15,7 @@ This dashboard aims to visualize various aspects of world population data includ
 ## Application Screenshot
 
 ![World Population Dashboard](dashboard_screenshot.png)
+![World Population Dashboard](dashboard_screenshot_2.png)
 
 ## Libraries Used
 
@@ -28,7 +29,7 @@ To run this dashboard locally, you'll need to have Python installed on your syst
 
 1. Clone this repository to your local machine:
    ```
-   git clone https://github.com/pauloabraao/dashboard_world_population/tree/main
+   git clone https://github.com/pauloabraao/dashboard_world_population
    ```
 
 2. Install the required dependencies using pip:

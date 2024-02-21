@@ -72,10 +72,20 @@ fig_date = px.bar(df_filtered_continent, y = 'Area (km²)', x ='Country',
                    color_discrete_sequence=px.colors.sequential.Inferno)
 col2_row3.plotly_chart(fig_date, use_container_width=True)
 
-scope  = str(continent).lower()
-
 fig_date = px.scatter_geo(df_filtered_continent, locations='CCA3', color="Country", hover_name="Country",
                            size = '2022 Population', title = ('Population Across ' + continent + '\'s Countries in 2022'),
-                           color_discrete_sequence=px.colors.sequential.Inferno, scope = scope,  projection = 'equirectangular')
+                           color_discrete_sequence=px.colors.sequential.Inferno,  projection = 'equirectangular')
+fig_date.update_geos(
+    projection_scale=1,
+    showcountries=True,
+    showcoastlines = True,
+    showocean = True,
+    showland = True,
+    showsubunits = True,
+    bgcolor = '#0e1117',
+    landcolor = '#dbab3b',
+    oceancolor = '#0e1117'
+
+)
 st.plotly_chart(fig_date, use_container_width=True)
 

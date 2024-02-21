@@ -1,10 +1,10 @@
 # World Population Dashboard
 
-Welcome to the World Population Dashboard repository! This dashboard application is built with Streamlit and provides insightful information about world population trends.
+Welcome to the World Population Dashboard repository! This dashboard application is built with Streamlit and provides insightful information about world population.
 
 ## About the Dashboard
 
-This dashboard aims to visualize various aspects of world population data including historical trends, population distribution by region, and projections for the future. It offers an intuitive interface for users to interact with the data and gain valuable insights.
+This dashboard aims to visualize various aspects of world population data. It offers an intuitive interface for users to interact with the data and gain valuable insights.
 
 ## How to Use
 
@@ -39,7 +39,7 @@ To run this dashboard locally, you'll need to have Python installed on your syst
 
 3. Run the Streamlit app:
    ```
-   streamlit run app.py
+   streamlit run dashboard.py
    ```
 
 4. Access the dashboard in your web browser at `http://localhost:8501`.
